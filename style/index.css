@@ -1,1 +1,110 @@
-/* CSS stillerinizi buraya girin */
+/* * {
+    border: 1px solid lime;
+} */
+
+@import url(./reset.css);
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.clr-white {
+    color: white;
+}
+
+.clr-black {
+    color: black;
+}
+
+.clr-backgrnd-black {
+    background-color: black;
+}
+
+.clr-backgrnd-gray {
+    background-color: gray;
+}
+
+.w90 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.w20 {
+    width: 18%;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.just-cont-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+
+/* .overflow-scroll {
+    overflow-y: scroll;
+} */
+
+.just-cont-space-bet {
+    justify-content: space-between;
+}
+
+/* .flex-wrap {
+    flex-wrap: wrap;
+} */
+
+.cont-flex-row {
+    display: flex;
+}
+
+.cont-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.custom-anchor {
+    text-decoration: none;
+    border: solid 1px black;
+    padding: 0.5%;
+}
+
+
+#sec2 > img {
+    object-fit: cover;
+    max-height: 100%;
+}
+
+#sec2 > p {
+    max-height: 100%;
+}
+
+footer {
+    height: 20%;
+}
+
+footer > a {
+    text-decoration: none;
+}
+
+
+
